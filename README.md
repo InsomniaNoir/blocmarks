@@ -14,7 +14,7 @@ Blocmarks will solve these problems by organizing bookmarks by topic and making 
 * "like and unlike" bookmarks created by other users
 * See a list of bookmarks on your personal profile that I've added or liked.
 
-Project created as part of the Ruby on Rails Dev track on (Bloc.io)[http://www.bloc.io]
+Project created as part of the Ruby on Rails Dev track on [Bloc.io](http://www.bloc.io)
 
 Special thanks to Jess Rodriguez.
 
