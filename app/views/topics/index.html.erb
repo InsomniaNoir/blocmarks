@@ -1,0 +1,10 @@
+<h1 class="text-align: center;">Blocmark Topics</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+    <% @topics.each do |topic| %>
+      <%= topic.title %>
+    <% end %>
+    </div>
+  </div>
+</div>
