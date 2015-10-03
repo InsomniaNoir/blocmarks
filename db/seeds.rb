@@ -9,9 +9,9 @@
 end
 users = User.all
 
-40.times do
+20.times do
   topic = Topic.create!(
-    title: Faker::Lorem.words
+    title: Faker::Hacker.noun
   )
 end
 topics = Topic.all
