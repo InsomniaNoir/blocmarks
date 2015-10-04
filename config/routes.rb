@@ -1,14 +1,11 @@
 Rails.application.routes.draw do
 
-  get 'bookmarks/new'
-
-  get 'bookmarks/edit'
-
-  get 'bookmarks/show'
-
   devise_for :users
   get 'welcome/index'
-  resources :topics
+
+  resources :topics do
+    resources :bookmarks, only: [:new, :edit, :show]
+  end
 
   root to: 'welcome#index'
 
